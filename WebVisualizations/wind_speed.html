@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <title>Bootstrap Components</title>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <link rel="stylesheet" href="style.css">
+    </head>
+    
+<body>
+    
+    <!-- NAVBAR -->
+
+    <nav class="navbar navbar-expand-lg navbar-light white">
+        <a class="navbar-brand" id="logo" href="latitude.html">Latitude</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Plots
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="max_temp.html">Max Temperature</a>
+                <a class="dropdown-item" href="humidity.html">Humidity</a>
+                <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
+                </div>
+            <li class="nav-item">
+              <a class="nav-link" href="comparison.html">Comparison</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="data.html">Data</a>
+            </li>
+
+        </div>
+    </nav>
+
+    <!-- WIND SPEED PAGE -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 text-box">
+                <h1>Wind Speed</h1>
+                <hr>
+                <div class="img-responsive mr-2" id="fig-image">
+                    <a href="wind_speed.html"><img src="Resources/assets/images/Fig4.png" width=100% alt="Fig 3"></a>
+                </div>
+                <div class="summary-text">
+                    <p>
+                      Wind speed does not appear to have a direct relationship with latitude, as there is a wide degree of variation in wind speed among cities located along the same latitudes. That said, the highest wind speeds are often at the extreme south or north of the globe, which could be representative of the relatively small variation in altitude among these regions.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-auto">
+            </div>
+            <div class="col-md-3 text-box">
+                <h2>Visualizations</h2>
+                <hr>
+                <div class="row">
+                    <div class="column">
+                      <a href="max_temp.html"><img src="Resources/assets/images/Fig1.png" alt="Fig 1"></a>
+                      <a href="cloudiness.html"><img src="Resources/assets/images/Fig3.png" alt="Fig 3"></a>
+                    </div>
+                    <div class="column">
+                      <a href="humidity.html"><img src="Resources/assets/images/Fig2.png" alt="Fig 2"></a>
+                      <a href="wind_speed.html"><img src="Resources/assets/images/Fig4.png" alt="Fig 4"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
