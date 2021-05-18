@@ -6,9 +6,9 @@
 
 Demonstration of HTML and CSS to create a dashboard visualizing climate data analysis.
 
-## Latitude - Latitude Analysis Dashboard with Attitude
+## Latitude - Longitude Analysis Dashboard
 
-For this project I created a visualization dashboard website using visualizations I created for a prior project.
+For this project I created a visualization dashboard website using climate data obtained from the [OpenWeather Map API](https://openweathermap.org/api).
 
 In building this dashboard, I created individual pages for each plot and a means by which a user can navigate between them. The pages contain the visualizations and their corresponding explanations, along with a landing page, a page where users can see a comparison of all of the plots, and another page where users can view the data used to build them.
 
